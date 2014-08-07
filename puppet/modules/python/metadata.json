@@ -1,0 +1,14 @@
+{
+  "name": "stankevich-python",
+  "version": "1.7.8",
+  "author": "Sergey Stankevich",
+  "summary": "Puppet module for Python",
+  "license": "Apache License, Version 2.0",
+  "source": "git://github.com/stankevich/puppet-python",
+  "project_page": "https://github.com/stankevich/puppet-python",
+  "issues_url": "https://github.com/stankevich/puppet-python/issues",
+  "description": "Installs and manages Python, pip, virtualenv, Gunicorn virtual hosts.",
+  "dependencies": [
+  
+  ]
+}
