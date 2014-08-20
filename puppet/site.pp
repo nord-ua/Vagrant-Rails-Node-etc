@@ -60,7 +60,7 @@ node default {
         group  => 'postgres',
         mode   => '0640',
         source => '/vagrant/puppet/resources/postgresql/pg_hba.conf',
-        require => Package['postgresql'],
+        require => Package['postgresql-server'],
     }
 
    # postgresql::server::pg_hba_rule { '"local" is for Unix domain socket connections only':
